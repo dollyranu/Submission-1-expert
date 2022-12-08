@@ -20,7 +20,7 @@
     }
 }
 
-@media screen and (max-width: 751px){
+@media screen and (max-width: 760px){
     .header{
         display: flex;
         align-items: center;
@@ -28,6 +28,7 @@
 
     .nav h1{
         display: none;
+        color: white;
     }
 
     .header__menu{
@@ -35,9 +36,13 @@
         font-size: 30px;
     }
 
+    header{
+        background-color: #00a2c6;
+    }
+
     .nav {
         z-index: 10;
-        background-color: #fff;
+        background-color: #00a2c6;
         width: 300px;
         position: absolute;
         flex-direction: column;
@@ -49,14 +54,18 @@
         /* Optionally, we animate the drawer. */
         transition: transform 0.3s ease;
     }
-    
+
     .open {
         -webkit-transform: translate(0, 0);
         transform: translate(0, 0);
     }
+    .nav{
+        padding-right: 50px;
+        padding-left: 40px;
+    }
 }
 
-@media screen and (min-width: 751px){
+@media screen and (min-width: 760px){
     .header{
         display: none;
     }

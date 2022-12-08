@@ -21,6 +21,7 @@
   font-weight: 400;
   text-decoration: none;
   text-transform: uppercase;
+  color: white;
 }
 
 .konten-gambar {
@@ -117,3 +118,6 @@ footer{
   text-align: left;
 }
 
+.nav a{
+  padding: 20px;
+}

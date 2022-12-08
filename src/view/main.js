@@ -6,7 +6,7 @@ const main = () => {
             const boxRestaurant = document.querySelector(".postCard");
             boxRestaurant.innerHTML += `
             <article class="item">
-              <img class="konten-gambar" src="${restaurant.pictureId}" width="300px" height="300px">
+              <img class="konten-gambar" src="${restaurant.pictureId}" width="300px" height="300px" alt="gambar restoran>
               <div class="konten-info">
                 <p class="konten-kota">${restaurant.city}</p>
                 <h1 class="konten-nama">${restaurant.name}</h1>
