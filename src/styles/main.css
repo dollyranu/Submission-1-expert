@@ -63,6 +63,21 @@
   background-position: center;
 }
 
+.skip-link {
+  position: absolute;
+  top: -40px;
+  left: 0;
+  background-color: #00a2c6;
+  color: white;
+  padding: 8px;
+  z-index: 100;
+}
+ 
+.skip-link:focus {
+   top: 0;
+   padding: 44px;
+}
+
 footer{
   padding: 20px;
   color: white;
