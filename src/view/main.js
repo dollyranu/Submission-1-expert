@@ -1,10 +1,10 @@
-import restaurant from "../DATA.json";
+import restaurant from '../DATA.json';
 
 const main = () => {
-    const renderRestaurant = () => {
-        restaurant.restaurants.forEach ((restaurant) => {
-            const boxRestaurant = document.querySelector(".postCard");
-            boxRestaurant.innerHTML += `
+  const renderRestaurant = () => {
+    restaurant.restaurants.forEach((restaurant) => {
+      const boxRestaurant = document.querySelector('.postCard');
+      boxRestaurant.innerHTML += `
             <article class="item">
               <img class="konten-gambar" src="${restaurant.pictureId}" width="300px" height="300px" alt="gambar restoran>
               <div class="konten-info">
@@ -15,8 +15,8 @@ const main = () => {
               </div>
             </article>
             `;
-        });
-    };
-renderRestaurant();
+    });
+  };
+  renderRestaurant();
 };
 export default main;
