@@ -5,7 +5,7 @@ import main from '../view/main';
 
 const menu = document.querySelector("#menu");
 const hero = document.querySelector(".hero");
-const mainElement = document.querySelector("main");
+const mainElement = document.querySelector(".content");
 const drawer = document.querySelector("#drawer");
 
 menu.addEventListener("click", function (event) {

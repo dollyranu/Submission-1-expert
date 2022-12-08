@@ -34,6 +34,26 @@
         padding: 44px;
         font-size: 30px;
     }
+
+    .nav {
+        z-index: 10;
+        background-color: #fff;
+        width: 300px;
+        position: absolute;
+        flex-direction: column;
+    
+        /* This trasform moves the drawer off canvas. */
+        -webkit-transform: translate(-300px, 0);
+        transform: translate(-300px, 0);
+    
+        /* Optionally, we animate the drawer. */
+        transition: transform 0.3s ease;
+    }
+    
+    .open {
+        -webkit-transform: translate(0, 0);
+        transform: translate(0, 0);
+    }
 }
 
 @media screen and (min-width: 751px){
