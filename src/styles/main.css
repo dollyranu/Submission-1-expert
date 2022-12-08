@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,700;1,400;1,500&display=swap');
+
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 40px 110px;
+  color: white;
+  background-color: #00a2c6;
+}
+
+.nav a{
+  font-size: 18px;
+  font-weight: 400;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.konten-gambar {
+  object-fit: cover;
+  width: 100%;
+}
+
+.item {
+  box-shadow: 0px 1px 7px 0px black;
+  border-radius: 10px;
+  text-align: left;
+  background: white;
+  width: 100%;
+  transition: transform;
+}
+
+/*.grid > article img {
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}*/
+.grid {
+  grid-column-gap: 10px;
+  grid-row-gap: 16px;
+  margin-left: 80px;
+  margin-right: 80px;
+}
+
+.latest {
+  width: 100%;
+  margin: 60px auto;
+  text-align: center;
+}
+
+.hero {
+  align-items: center;
+  min-height: 450px;
+  width: 100%;
+  text-align: center;
+  background-image: url('../public/images/heros/hero-image_2.jpg');
+  background-position: center;
+}
+
+footer{
+  padding: 20px;
+  color: white;
+  background-color: #00a2c6;
+  text-align: center;
+  font-weight: bold;
+}
+
+.article{
+  padding-top: 50px;
+  padding-bottom: 30px;
+}
+
+.section-heading{
+  color: #062C30;
+  font-weight: 700;
+  text-align: center;
+  margin-top: 35px;
+  margin-bottom: 10px;
+}
+
+.postCard{
+  padding: 15px 15px 30px;
+  border-radius: 10px;
+  border: none;
+  box-shadow: 5px 5px 2px rgba(0, 0, 0, 0.06);
+  transition: 0.3s all;
+  background-color: #fff;
+}
+
+.konten-info {
+  padding: 30px 30px 30px 30px;
+}
+
+.konten-deskripsi {
+  margin: 32px auto auto;
+  text-align: left;
+}
+
