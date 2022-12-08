@@ -20,6 +20,18 @@
     }
 }
 
+@media screen and (min-width: 1200px) {
+    .hero{
+      min-width: 1000px;
+    }
+  }
+  
+  @media screen and (max-width: 1199px) {
+    .hero{
+      width: 100%;
+    }
+  }
+
 @media screen and (max-width: 760px){
     .header{
         display: flex;
